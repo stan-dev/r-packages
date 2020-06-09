@@ -1,0 +1,8 @@
+Package: posterior
+Version: 0.0.3
+Depends: R (>= 3.2.0)
+Imports: stats, rlang, tibble, abind, checkmate
+Suggests: testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 94d47bda329415fc2eb92bd320a9c513
+NeedsCompilation: no

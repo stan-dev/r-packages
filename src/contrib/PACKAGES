@@ -7,10 +7,10 @@ MD5sum: 791733b58371fe5cf1d52808af802a63
 NeedsCompilation: no
 
 Package: posterior
-Version: 0.0.3
+Version: 0.1.0
 Depends: R (>= 3.2.0)
-Imports: stats, rlang, tibble, abind, checkmate
+Imports: abind, checkmate, rlang, stats, tibble
 Suggests: testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
-MD5sum: 94d47bda329415fc2eb92bd320a9c513
+MD5sum: 6c7e3b12a2d694fd87685b5c32abe779
 NeedsCompilation: no

@@ -77,3 +77,5 @@ drat::insertPackage("posterior_0.0.3.tar.gz", "r-packages/")
 5. Commit and push changes to your repository `yourusername/r-packages`.
 
 6. Open a pull request on this repository to add your package.
+
+

@@ -1,5 +1,5 @@
 Package: cmdstanr
-Version: 0.0.0.9005
+Version: 0.0.0.9006
 Imports: checkmate, posterior (>= 0.0.3), processx, R6, vroom
 Suggests: bayesplot, jsonlite (>= 1.2.0), knitr, rmarkdown, rstan,
         testthat (>= 2.1.0)

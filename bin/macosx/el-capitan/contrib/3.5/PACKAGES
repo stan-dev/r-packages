@@ -12,4 +12,4 @@ Depends: R (>= 3.2.0)
 Imports: abind, checkmate, rlang, stats, tibble
 Suggests: testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
-MD5sum: cc287fdb8ac4c6045ab3d6b7a550a636
+MD5sum: 99598e7945356c9077adddbe45249882

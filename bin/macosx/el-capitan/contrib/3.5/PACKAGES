@@ -27,4 +27,4 @@ Suggests: betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3,
         knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2,
         simsurv (>= 0.2.2), testthat (>= 1.0.2)
 License: GPL (>= 3)
-MD5sum: 81ca134ab9d242e135c066eb65b7200a
+MD5sum: 73784ddf8bf133e1b27592f5fe781321

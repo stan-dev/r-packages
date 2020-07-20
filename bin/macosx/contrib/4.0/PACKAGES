@@ -5,6 +5,14 @@ Suggests: bayesplot, jsonlite (>= 1.2.0), knitr, rmarkdown, rstan, testthat (>= 
 License: BSD_3_clause + file LICENSE
 MD5sum: cad58895e24c66a6336ffd59954379ec
 
+Package: cmdstanr
+Version: 0.0.0.9008
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3), processx, R6 (>= 2.4.0),
+         vroom
+Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 04e20fb2cb884e55ffa004bc93ddf7de
+
 Package: posterior
 Version: 0.1.0
 Depends: R (>= 3.2.0)

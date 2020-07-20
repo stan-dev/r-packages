@@ -1,4 +1,37 @@
 Package: cmdstanr
+Version: 0.0.0.9002
+Imports: checkmate, posterior (>= 0.0.3), processx, R6, vroom
+Suggests: jsonlite (>= 1.2.0), knitr, rmarkdown, rstan, testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 791733b58371fe5cf1d52808af802a63
+NeedsCompilation: no
+
+Package: cmdstanr
+Version: 0.0.0.9005
+Imports: checkmate, posterior (>= 0.0.3), processx, R6, vroom
+Suggests: bayesplot, jsonlite (>= 1.2.0), knitr, rmarkdown, rstan, testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 3d8b1d20de37f288620285ab1f7df563
+NeedsCompilation: no
+
+Package: cmdstanr
+Version: 0.0.0.9006
+Imports: checkmate, posterior (>= 0.0.3), processx, R6 (>= 2.4.0), vroom
+Suggests: bayesplot, jsonlite (>= 1.2.0), knitr, rmarkdown, testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 4fc8a38caadb344a45f594953096ba92
+NeedsCompilation: no
+
+Package: cmdstanr
+Version: 0.0.0.9007
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3), processx, R6 (>= 2.4.0),
+         vroom
+Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 708f04104e862005067cad65c2f5bb30
+NeedsCompilation: no
+
+Package: cmdstanr
 Version: 0.0.0.9008
 Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3), processx, R6 (>= 2.4.0),
          vroom
@@ -8,10 +41,19 @@ MD5sum: 42b36cb3473ead9d5cef953a56775123
 NeedsCompilation: no
 
 Package: posterior
+Version: 0.0.3
+Depends: R (>= 3.2.0)
+Imports: stats, rlang, tibble, abind, checkmate
+Suggests: testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 94d47bda329415fc2eb92bd320a9c513
+NeedsCompilation: no
+
+Package: posterior
 Version: 0.1.0
 Depends: R (>= 3.2.0)
 Imports: abind, checkmate, rlang, stats, tibble
 Suggests: testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
-MD5sum: 6c7e3b12a2d694fd87685b5c32abe779
+MD5sum: 33090cfc1368528e9252fdd95094abb4
 NeedsCompilation: no

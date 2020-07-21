@@ -4,7 +4,7 @@ Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3),
         processx, R6 (>= 2.4.0), vroom
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
-MD5sum: 4e2c362af9455810c1a8af814ef31da2
+MD5sum: adad171ad5a13db4f200619db7c6737a
 
 Package: posterior
 Version: 0.1.0

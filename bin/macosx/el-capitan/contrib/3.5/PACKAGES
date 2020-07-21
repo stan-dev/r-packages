@@ -12,7 +12,7 @@ Depends: R (>= 3.2.0)
 Imports: abind, checkmate, rlang, stats, tibble
 Suggests: testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
-MD5sum: 62fba5fe90a0269cfa593eb0249a66c9
+MD5sum: de04101c3a6da70b7b292349c297e01d
 
 Package: rstanarm
 Version: 2.19.1

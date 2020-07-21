@@ -1,10 +1,10 @@
 Package: cmdstanr
-Version: 0.0.0.9006
-Imports: checkmate, posterior (>= 0.0.3), processx, R6, vroom
-Suggests: bayesplot, jsonlite (>= 1.2.0), knitr, rmarkdown, rstan,
-        testthat (>= 2.1.0)
+Version: 0.0.0.9008
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3),
+        processx, R6 (>= 2.4.0), vroom
+Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
-MD5sum: db5de44673272f72edefac143c34726d
+MD5sum: b76e50a4d28023af6d22e40aba986530
 
 Package: posterior
 Version: 0.1.0

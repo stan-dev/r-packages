@@ -70,6 +70,14 @@ License: BSD_3_clause + file LICENSE
 MD5sum: c4b5ee821cce586a0ddfe5b967360350
 NeedsCompilation: no
 
+Package: cmdstanr
+Version: 0.1.2
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0), vroom
+Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 1c20d18dd717a78a78b1180ed83afe51
+NeedsCompilation: no
+
 Package: posterior
 Version: 0.0.3
 Depends: R (>= 3.2.0)

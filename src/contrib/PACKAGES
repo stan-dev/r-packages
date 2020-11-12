@@ -24,7 +24,8 @@ NeedsCompilation: no
 
 Package: cmdstanr
 Version: 0.0.0.9007
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3), processx, R6 (>= 2.4.0), vroom
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3), processx, R6 (>= 2.4.0),
+          vroom
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: 708f04104e862005067cad65c2f5bb30
@@ -32,7 +33,8 @@ NeedsCompilation: no
 
 Package: cmdstanr
 Version: 0.0.0.9008
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3), processx, R6 (>= 2.4.0), vroom
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3), processx, R6 (>= 2.4.0),
+          vroom
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: 42b36cb3473ead9d5cef953a56775123
@@ -40,7 +42,8 @@ NeedsCompilation: no
 
 Package: cmdstanr
 Version: 0.0.0.9009
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0), vroom
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0),
+          vroom
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: 47baa9d1b1239cf27d5caa0a540bbdb5
@@ -48,7 +51,8 @@ NeedsCompilation: no
 
 Package: cmdstanr
 Version: 0.0.0.9010
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0), vroom
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0),
+          vroom
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: 54c8fb061292eab3c5699306d542fcbb
@@ -56,7 +60,8 @@ NeedsCompilation: no
 
 Package: cmdstanr
 Version: 0.1.0
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0), vroom
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0),
+          vroom
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: fdcce40d967d26039ffc13ea6fb10f47
@@ -64,7 +69,8 @@ NeedsCompilation: no
 
 Package: cmdstanr
 Version: 0.1.1
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0), vroom
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0),
+          vroom
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: c4b5ee821cce586a0ddfe5b967360350
@@ -72,7 +78,8 @@ NeedsCompilation: no
 
 Package: cmdstanr
 Version: 0.1.2
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0), vroom
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0),
+          vroom
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: 1c20d18dd717a78a78b1180ed83afe51
@@ -80,10 +87,20 @@ NeedsCompilation: no
 
 Package: cmdstanr
 Version: 0.1.3
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0), vroom
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0),
+          vroom
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: 07f890f802ee7e8f0b1950e8792f92bb
+NeedsCompilation: no
+
+Package: cmdstanr
+Version: 0.2.0
+Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0),
+          data.table
+Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 906b85e3821de9cac14ce7d96439fa99
 NeedsCompilation: no
 
 Package: posterior
@@ -116,13 +133,15 @@ NeedsCompilation: no
 Package: rstanarm
 Version: 2.21.2
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods
-Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.0), Matrix (>= 1.2-13), nlme (>= 3.1-124), rstan
-              (>= 2.21.1), rstantools (>= 2.1.0), shinystan (>= 2.3.0), splines, splines2 (>= 0.2.7), stats, survival (>=
-              2.40.1), RcppParallel (>= 5.0.1), utils
-LinkingTo: StanHeaders (>= 2.21.0), rstan (>= 2.21.1), BH (>= 1.72.0-2), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel
-              (>= 5.0.1)
-Suggests: betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown,
-              roxygen2, simsurv (>= 0.2.2), StanHeaders (>= 2.21.0), testthat (>= 1.0.2)
+Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.0), Matrix
+          (>= 1.2-13), nlme (>= 3.1-124), rstan (>= 2.21.1), rstantools (>= 2.1.0),
+          shinystan (>= 2.3.0), splines, splines2 (>= 0.2.7), stats, survival (>= 2.40.1),
+          RcppParallel (>= 5.0.1), utils
+LinkingTo: StanHeaders (>= 2.21.0), rstan (>= 2.21.1), BH (>= 1.72.0-2), Rcpp (>= 0.12.0),
+          RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
+Suggests: betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1),
+          MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2, simsurv (>= 0.2.2), StanHeaders (>=
+          2.21.0), testthat (>= 1.0.2)
 License: GPL (>= 3)
 MD5sum: 550d1518eb1c471e9c8e8e8b7f64e1d8
 NeedsCompilation: yes

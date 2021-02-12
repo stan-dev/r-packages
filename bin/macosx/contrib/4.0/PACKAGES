@@ -1,17 +1,3 @@
-Package: cmdstanr
-Version: 0.0.0.9005
-Imports: checkmate, posterior (>= 0.0.3), processx, R6, vroom
-Suggests: bayesplot, jsonlite (>= 1.2.0), knitr, rmarkdown, rstan, testthat (>= 2.1.0)
-License: BSD_3_clause + file LICENSE
-MD5sum: cad58895e24c66a6336ffd59954379ec
-
-Package: cmdstanr
-Version: 0.0.0.9008
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3), processx, R6 (>= 2.4.0), vroom
-Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
-License: BSD_3_clause + file LICENSE
-MD5sum: 04e20fb2cb884e55ffa004bc93ddf7de
-
 Package: posterior
 Version: 0.1.0
 Depends: R (>= 3.2.0)
@@ -19,16 +5,6 @@ Imports: abind, checkmate, rlang, stats, tibble
 Suggests: testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: d00c0db6f4bc889ae095f6977878b1d1
-
-Package: rstan
-Version: 2.26.0.9000
-Depends: R (>= 3.4.0), StanHeaders (>= 2.25.0)
-Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild (>=
-               1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
-LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.25.0), RcppParallel (>= 5.0.2)
-Suggests: RUnit, parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
-License: GPL (>= 3)
-MD5sum: 01863ca5b78cf1c78a52ba07891f13d3
 
 Package: rstan
 Version: 2.26.0
@@ -39,15 +15,6 @@ LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHead
 Suggests: RUnit, parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
 License: GPL (>= 3)
 MD5sum: 2aec335577f46306c444806b9e47c8dd
-
-Package: StanHeaders
-Version: 2.26.0.9000
-Depends: R (>= 3.4.0)
-Imports: RcppParallel (>= 5.0.1)
-LinkingTo: RcppEigen, RcppParallel (>= 5.0.1)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix, methods, rstan
-License: BSD_3_clause + file LICENSE
-MD5sum: 968b752f3e91a62e3cf69a8e5baa2e56
 
 Package: StanHeaders
 Version: 2.26.0

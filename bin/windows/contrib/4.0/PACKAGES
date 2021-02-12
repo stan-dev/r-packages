@@ -1,22 +1,4 @@
 Package: cmdstanr
-Version: 0.0.0.9005
-Imports: checkmate, posterior (>= 0.0.3), processx, R6, vroom
-Suggests: bayesplot, jsonlite (>= 1.2.0), knitr, rmarkdown, rstan, testthat (>= 2.1.0)
-License: BSD_3_clause + file LICENSE
-
-Package: cmdstanr
-Version: 0.0.0.9006
-Imports: checkmate, posterior (>= 0.0.3), processx, R6, vroom
-Suggests: bayesplot, jsonlite (>= 1.2.0), knitr, rmarkdown, rstan, testthat (>= 2.1.0)
-License: BSD_3_clause + file LICENSE
-
-Package: cmdstanr
-Version: 0.0.0.9008
-Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.0.3), processx, R6 (>= 2.4.0), vroom
-Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
-License: BSD_3_clause + file LICENSE
-
-Package: cmdstanr
 Version: 0.2.1
 Imports: checkmate, jsonlite (>= 1.2.0), posterior (>= 0.1.0), processx, R6 (>= 2.4.0), data.table
 Suggests: bayesplot, knitr, rmarkdown, testthat (>= 2.1.0)
@@ -28,16 +10,6 @@ Depends: R (>= 3.2.0)
 Imports: abind, checkmate, rlang, stats, tibble
 Suggests: testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
-
-Package: rstan
-Version: 2.26.0.9000
-Depends: R (>= 3.4.0), StanHeaders (>= 2.25.0)
-Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild (>=
-               1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
-LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.25.0), RcppParallel (>= 5.0.2)
-Suggests: RUnit, parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
-License: GPL (>= 3)
-Archs: i386, x64
 
 Package: rstan
 Version: 2.26.0
@@ -60,15 +32,6 @@ LinkingTo: StanHeaders (>= 2.21.0), rstan (>= 2.21.1), BH (>= 1.72.0-2), Rcpp (>
 Suggests: betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2,
                simsurv (>= 0.2.2), StanHeaders (>= 2.21.0), testthat (>= 1.0.2)
 License: GPL (>= 3)
-Archs: i386, x64
-
-Package: StanHeaders
-Version: 2.26.0.9000
-Depends: R (>= 3.4.0)
-Imports: RcppParallel (>= 5.0.1)
-LinkingTo: RcppEigen, RcppParallel (>= 5.0.1)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix, methods, rstan
-License: BSD_3_clause + file LICENSE
 Archs: i386, x64
 
 Package: StanHeaders

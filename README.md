@@ -2,6 +2,12 @@
 
 A place for publishing new versions of (some) `stan-dev` R packages before they reach CRAN and for `stan-dev` R packages and versions where releasing on CRAN is not a (current) goal. As of 2021-03-16 this is most relevant for `rstan`, where the CRAN version is unfortunately several releases behind and pushing a new version to CRAN has been difficult.
 
+The packages currently hosted in this repository are:
+ - [cmdstanr](https://github.com/stan-dev/cmdstanr)
+ - [posterior](https://github.com/stan-dev/posterior)
+ - [rstan](https://github.com/stan-dev/rstan)
+ - [rstanarm](https://github.com/stan-dev/rstanarm) (Survival branch - https://arxiv.org/pdf/2002.09633.pdf)
+
 To install latest `rstan` or other packages from the repo, add `https://mc-stan.org/r-packages/` to your repository list, e.g.:
 
 ```r

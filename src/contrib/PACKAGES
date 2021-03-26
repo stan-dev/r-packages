@@ -58,11 +58,21 @@ License: BSD_3_clause + file LICENSE
 MD5sum: 268848314a84d67e7f7f519071387b43
 NeedsCompilation: no
 
+Package: posterior
+Version: 0.1.4
+Depends: R (>= 3.2.0)
+Imports: abind, checkmate, rlang (>= 0.4.7), stats, tibble (>= 3.0.0), vctrs, tensorA, pillar, distributional
+Suggests: testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8), randomForest (>= 4.6.14), e1071 (>= 1.7.3), dplyr, tidyr, knitr,
+               rmarkdown
+License: BSD_3_clause + file LICENSE
+MD5sum: 2468f6a3f09569e7315b9724e81ebe71
+NeedsCompilation: no
+
 Package: rstan
 Version: 2.26.0
 Depends: R (>= 3.4.0), StanHeaders (>= 2.25.0)
-Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild (>=
-               1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
+Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild
+               (>= 1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
 LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.25.0), RcppParallel (>= 5.0.2)
 Suggests: RUnit, parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
 License: GPL (>= 3)
@@ -72,8 +82,8 @@ NeedsCompilation: yes
 Package: rstan
 Version: 2.26.1
 Depends: R (>= 3.4.0), StanHeaders (>= 2.25.0)
-Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild (>=
-               1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
+Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild
+               (>= 1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
 LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.25.0), RcppParallel (>= 5.0.2)
 Suggests: RUnit, parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
 License: GPL (>= 3)

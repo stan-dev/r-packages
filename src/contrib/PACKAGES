@@ -31,7 +31,7 @@ Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>= 0.1.3), proce
           R6 (>= 2.4.0)
 Suggests: bayesplot, knitr, loo (>= 2.0.0), rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
-MD5sum: cdaf2e5a4d1669f4dbcb75b98aece30d
+MD5sum: f0b3b47fcde627ff2799111af4016c86
 NeedsCompilation: no
 
 Package: posterior

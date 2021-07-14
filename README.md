@@ -4,7 +4,6 @@ A place for publishing new versions of (some) `stan-dev` R packages before they 
 
 The packages currently hosted in this repository are:
  - [cmdstanr](https://github.com/stan-dev/cmdstanr)
- - [posterior](https://github.com/stan-dev/posterior)
  - [rstan](https://github.com/stan-dev/rstan)
  - [rstanarm](https://github.com/stan-dev/rstanarm) (Survival branch - https://arxiv.org/pdf/2002.09633.pdf)
 
@@ -46,7 +45,7 @@ drat::insertPackage("path/to/package_tarball.tar.gz", "path/to/r-packages/")
 
 For example:
 ```r
-drat::insertPackage("posterior_0.0.3.tar.gz", "r-packages/")
+drat::insertPackage("cmdstanr_0.4.0.tar.gz", "r-packages/")
 ```
 
 5. Commit and push changes to the `stan-dev/r-packages` repository.
@@ -83,7 +82,7 @@ drat::insertPackage("path/to/package_tarball.tar.gz", "path/to/r-packages/")
 
 For example:
 ```r
-drat::insertPackage("posterior_0.0.3.tar.gz", "r-packages/")
+drat::insertPackage("cmdstanr_0.4.0.tar.gz", "r-packages/")
 ```
 
 5. Commit and push changes to your repository `yourusername/r-packages`.

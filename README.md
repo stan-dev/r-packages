@@ -5,6 +5,7 @@ A place for publishing new versions of (some) `stan-dev` R packages before they 
 The packages currently hosted in this repository are:
  - [cmdstanr](https://github.com/stan-dev/cmdstanr)
  - [rstan](https://github.com/stan-dev/rstan)
+ - [StanHeaders](https://github.com/stan-dev/stan) (required for rstan)
  - [rstanarm](https://github.com/stan-dev/rstanarm) (Survival branch - https://arxiv.org/pdf/2002.09633.pdf)
 
 To install latest `rstan` or other packages from the repo, add `https://mc-stan.org/r-packages/` to your repository list, e.g.:

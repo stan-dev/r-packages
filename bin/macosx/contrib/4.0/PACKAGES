@@ -1,46 +1,71 @@
 Package: cmdstanr
 Version: 0.4.0
-Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>= 0.1.3), processx (>= 3.4.5), R6 (>= 2.4.0)
-Suggests: bayesplot, knitr, loo (>= 2.0.0), rmarkdown, testthat (>= 2.1.0)
+Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>=
+        0.1.3), processx (>= 3.4.5), R6 (>= 2.4.0)
+Suggests: bayesplot, knitr, loo (>= 2.0.0), rmarkdown, testthat (>=
+        2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: 5160cd8b8966c18bed5efc04f35f8236
 
 Package: rstan
 Version: 2.26.0
 Depends: R (>= 3.4.0), StanHeaders (>= 2.25.0)
-Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild (>= 1.2.0), V8
-                (>= 3.4.0), ggplot2 (>= 3.3.2)
-LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.25.0), RcppParallel (>= 5.0.2)
-Suggests: RUnit, parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
+Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp
+        (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild
+        (>= 1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
+LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+        StanHeaders (>= 2.25.0), RcppParallel (>= 5.0.2)
+Suggests: RUnit, parallel, KernSmooth, shinystan, bayesplot, rmarkdown,
+        rstantools, rstudioapi, Matrix, knitr
 License: GPL (>= 3)
 MD5sum: 2aec335577f46306c444806b9e47c8dd
 
 Package: rstan
 Version: 2.26.1
 Depends: R (>= 3.4.0), StanHeaders (>= 2.26.1)
-Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild (>= 1.2.0), V8
-                (>= 3.4.0), ggplot2 (>= 3.3.2)
-LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.26.1), RcppParallel (>= 5.0.2)
-Suggests: RUnit, parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
+Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp
+        (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild
+        (>= 1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
+LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+        StanHeaders (>= 2.26.1), RcppParallel (>= 5.0.2)
+Suggests: RUnit, parallel, KernSmooth, shinystan, bayesplot, rmarkdown,
+        rstantools, rstudioapi, Matrix, knitr
 License: GPL (>= 3)
 MD5sum: 499994d319f8031be2fe9298b523ce4f
 
 Package: rstan
 Version: 2.26.2
 Depends: R (>= 3.4.0), StanHeaders (>= 2.26.1)
-Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild (>= 1.2.0), V8
-                (>= 3.4.0), ggplot2 (>= 3.3.2)
-LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.26.1), RcppParallel (>= 5.0.2)
-Suggests: testthat (>= 3.0.0), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
+Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp
+        (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild
+        (>= 1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
+LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+        StanHeaders (>= 2.26.1), RcppParallel (>= 5.0.2)
+Suggests: testthat (>= 3.0.0), parallel, KernSmooth, shinystan,
+        bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
 License: GPL (>= 3)
 MD5sum: 0a0ff7cc337833ebd1a4bf136207f72c
+
+Package: rstan
+Version: 2.26.3
+Depends: R (>= 3.4.0), StanHeaders (>= 2.26.1)
+Imports: methods, stats4, inline (>= 0.3.17), gridExtra (>= 2.3), Rcpp
+        (>= 1.0.5), RcppParallel (>= 5.0.2), loo (>= 2.4.1), pkgbuild
+        (>= 1.2.0), V8 (>= 3.4.0), ggplot2 (>= 3.3.2)
+LinkingTo: Rcpp (>= 1.0.5), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+        StanHeaders (>= 2.26.1), RcppParallel (>= 5.0.2)
+Suggests: testthat (>= 3.0.0), parallel, KernSmooth, shinystan,
+        bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
+License: GPL (>= 3)
+MD5sum: d65120b908c1998e8c8ca3fbc91b0d57
 
 Package: StanHeaders
 Version: 2.26.0
 Depends: R (>= 3.4.0)
 Imports: RcppParallel (>= 5.0.1)
 LinkingTo: RcppEigen, RcppParallel (>= 5.0.1)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix, methods, rstan
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix,
+        methods, rstan
 License: BSD_3_clause + file LICENSE
 MD5sum: b7c4d86b404b3b5503344d703cc37e48
 
@@ -49,7 +74,8 @@ Version: 2.26.1
 Depends: R (>= 3.4.0)
 Imports: RcppParallel (>= 5.0.1)
 LinkingTo: RcppEigen, RcppParallel (>= 5.0.1)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix, methods, rstan
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix,
+        methods, rstan
 License: BSD_3_clause + file LICENSE
 MD5sum: 8e05bee4a223e877d35653134b762075
 
@@ -58,6 +84,17 @@ Version: 2.26.2
 Depends: R (>= 3.4.0)
 Imports: RcppParallel (>= 5.0.1)
 LinkingTo: RcppEigen, RcppParallel (>= 5.0.1)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix, methods, rstan
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix,
+        methods, rstan
 License: BSD_3_clause + file LICENSE
 MD5sum: a6f0c22c75d73a719506c60e489cbcfd
+
+Package: StanHeaders
+Version: 2.26.3
+Depends: R (>= 3.4.0)
+Imports: RcppParallel (>= 5.0.1)
+LinkingTo: RcppEigen, RcppParallel (>= 5.0.1)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix,
+        methods, rstan
+License: BSD_3_clause + file LICENSE
+MD5sum: 962f6191ab4055faee5e643d9a2a9ce5

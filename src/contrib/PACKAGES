@@ -92,6 +92,20 @@ License: GPL (>= 3)
 MD5sum: af1c16753d4a2df1ba0055713eec6e8d
 NeedsCompilation: yes
 
+Package: rstan
+Version: 2.26.4
+Depends: R (>= 3.4.0), StanHeaders (>= 2.26.4)
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp
+        (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild
+        (>= 1.2.0), V8 (>= 3.4.2), ggplot2 (>= 3.3.5)
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+        StanHeaders (>= 2.26.4), RcppParallel (>= 5.1.4)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan,
+        bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
+License: GPL (>= 3)
+MD5sum: e33fecd2500618e98aea704b340a26b5
+NeedsCompilation: yes
+
 Package: rstanarm
 Version: 2.21.2
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods
@@ -153,4 +167,15 @@ Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.15.1), rmarkdown, Matrix,
         methods, rstan
 License: BSD_3_clause + file LICENSE
 MD5sum: 8aa708d942d1e0ffea46d38846ddbe3c
+NeedsCompilation: yes
+
+Package: StanHeaders
+Version: 2.26.4
+Depends: R (>= 3.4.0)
+Imports: RcppParallel (>= 5.1.4)
+LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix,
+        methods, rstan
+License: BSD_3_clause + file LICENSE
+MD5sum: 3900ffb4c6016736eb90150e253c0be7
 NeedsCompilation: yes

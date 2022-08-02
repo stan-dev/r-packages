@@ -65,6 +65,16 @@ Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>= 1.1.0), proce
              2.5.0)
 Suggests: bayesplot, knitr (>= 1.37), loo (>= 2.0.0), rlang (>= 0.4.7), rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
+MD5sum: f2b581d0e1b0df13a13511e527eb5092
+NeedsCompilation: no
+
+Package: cmdstanr
+Version: 0.5.3
+Depends: R (>= 3.5.0)
+Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>= 1.1.0), processx (>= 3.5.0), R6 (>= 2.4.0), withr (>=
+             2.5.0)
+Suggests: bayesplot, knitr (>= 1.37), loo (>= 2.0.0), rlang (>= 0.4.7), rmarkdown, testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
 MD5sum: e96b1a09484dbcc9d24f518b7879deb0
 NeedsCompilation: no
 

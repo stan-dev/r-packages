@@ -1,0 +1,46 @@
+Package: cmdstanr
+Version: 0.5.3
+Depends: R (>= 3.5.0)
+Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>= 1.1.0), processx (>=
+          3.5.0), R6 (>= 2.4.0), withr (>= 2.5.0)
+Suggests: bayesplot, knitr (>= 1.37), loo (>= 2.0.0), rlang (>= 0.4.7), rmarkdown,
+          testthat (>= 2.1.0)
+License: BSD_3_clause + file LICENSE
+MD5sum: 3ee68c48a65df75180c51668afc54025
+
+Package: rstan
+Version: 2.26.13
+Depends: R (>= 3.4.0), StanHeaders (>= 2.26.13)
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7),
+          RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild (>= 1.2.0), V8 (>= 3.6.0),
+          ggplot2 (>= 3.3.5)
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>=
+          2.26.13), RcppParallel (>= 5.1.4)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown,
+          rstantools, rstudioapi, Matrix, knitr
+License: GPL (>= 3)
+MD5sum: 26648d4ca02c71478100485fab476d6b
+
+Package: rstanarm
+Version: 2.21.2
+Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods
+Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.0), Matrix
+          (>= 1.2-13), nlme (>= 3.1-124), rstan (>= 2.21.1), rstantools (>= 2.1.0),
+          shinystan (>= 2.3.0), splines, splines2 (>= 0.2.7), stats, survival (>= 2.40.1),
+          RcppParallel (>= 5.0.1), utils
+LinkingTo: StanHeaders (>= 2.21.0), rstan (>= 2.21.1), BH (>= 1.72.0-2), Rcpp (>= 0.12.0),
+          RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1)
+Suggests: betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1),
+          MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2, simsurv (>= 0.2.2), StanHeaders (>=
+          2.21.0), testthat (>= 1.0.2)
+License: GPL (>= 3)
+MD5sum: 94f04c7635595129a7f899b591e8387f
+
+Package: StanHeaders
+Version: 2.26.13
+Depends: R (>= 3.4.0)
+Imports: RcppParallel (>= 5.1.4)
+LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan
+License: BSD_3_clause + file LICENSE
+MD5sum: f65a8c6e8b05f47df77446633a9b02b6

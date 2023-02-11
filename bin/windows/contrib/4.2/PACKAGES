@@ -1,49 +1,70 @@
 Package: cmdstanr
 Version: 0.5.2
 Depends: R (>= 3.5.0)
-Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>= 1.1.0), processx (>= 3.5.0), R6 (>= 2.4.0), withr (>=
-             2.5.0)
-Suggests: bayesplot, knitr (>= 1.37), loo (>= 2.0.0), rlang (>= 0.4.7), rmarkdown, testthat (>= 2.1.0)
+Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>=
+        1.1.0), processx (>= 3.5.0), R6 (>= 2.4.0), withr (>= 2.5.0)
+Suggests: bayesplot, knitr (>= 1.37), loo (>= 2.0.0), rlang (>= 0.4.7),
+        rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 
 Package: cmdstanr
 Version: 0.5.3
 Depends: R (>= 3.5.0)
-Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>= 1.1.0), processx (>= 3.5.0), R6 (>= 2.4.0), withr (>=
-             2.5.0)
-Suggests: bayesplot, knitr (>= 1.37), loo (>= 2.0.0), rlang (>= 0.4.7), rmarkdown, testthat (>= 2.1.0)
+Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>=
+        1.1.0), processx (>= 3.5.0), R6 (>= 2.4.0), withr (>= 2.5.0)
+Suggests: bayesplot, knitr (>= 1.37), loo (>= 2.0.0), rlang (>= 0.4.7),
+        rmarkdown, testthat (>= 2.1.0)
 License: BSD_3_clause + file LICENSE
 
 Package: rstan
 Version: 2.26.11
 Depends: R (>= 3.4.0), StanHeaders (>= 2.26.11)
-Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>=
-             2.4.1), pkgbuild (>= 1.2.0), V8 (>= 3.6.0), ggplot2 (>= 3.3.5)
-LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.26.11), RcppParallel (>= 5.1.4)
-Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix,
-             knitr
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp
+        (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild
+        (>= 1.2.0), V8 (>= 3.6.0), ggplot2 (>= 3.3.5)
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+        StanHeaders (>= 2.26.11), RcppParallel (>= 5.1.4)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan,
+        bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
 License: GPL (>= 3)
 Archs: x64
 
 Package: rstan
 Version: 2.26.12
 Depends: R (>= 3.4.0), StanHeaders (>= 2.26.12)
-Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>=
-             2.4.1), pkgbuild (>= 1.2.0), V8 (>= 3.6.0), ggplot2 (>= 3.3.5)
-LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.26.12), RcppParallel (>= 5.1.4)
-Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix,
-             knitr
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp
+        (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild
+        (>= 1.2.0), V8 (>= 3.6.0), ggplot2 (>= 3.3.5)
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+        StanHeaders (>= 2.26.12), RcppParallel (>= 5.1.4)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan,
+        bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
 License: GPL (>= 3)
 Archs: x64
 
 Package: rstan
 Version: 2.26.13
 Depends: R (>= 3.4.0), StanHeaders (>= 2.26.13)
-Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>=
-             2.4.1), pkgbuild (>= 1.2.0), V8 (>= 3.6.0), ggplot2 (>= 3.3.5)
-LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0), StanHeaders (>= 2.26.13), RcppParallel (>= 5.1.4)
-Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan, bayesplot, rmarkdown, rstantools, rstudioapi, Matrix,
-             knitr
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp
+        (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild
+        (>= 1.2.0), V8 (>= 3.6.0), ggplot2 (>= 3.3.5)
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+        StanHeaders (>= 2.26.13), RcppParallel (>= 5.1.4)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan,
+        bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
+License: GPL (>= 3)
+Archs: x64
+
+Package: rstan
+Version: 2.26.14
+Depends: R (>= 3.4.0), StanHeaders (>= 2.26.14)
+Imports: methods, stats4, inline (>= 0.3.19), gridExtra (>= 2.3), Rcpp
+        (>= 1.0.7), RcppParallel (>= 5.1.4), loo (>= 2.4.1), pkgbuild
+        (>= 1.2.0), V8 (>= 3.6.0), ggplot2 (>= 3.3.5)
+LinkingTo: Rcpp (>= 1.0.7), RcppEigen (>= 0.3.3.9.1), BH (>= 1.75.0-0),
+        StanHeaders (>= 2.26.14), RcppParallel (>= 5.1.4)
+Suggests: testthat (>= 3.0.4), parallel, KernSmooth, shinystan,
+        bayesplot, rmarkdown, rstantools, rstudioapi, Matrix, knitr
 License: GPL (>= 3)
 Archs: x64
 
@@ -52,7 +73,8 @@ Version: 2.26.11
 Depends: R (>= 3.4.0)
 Imports: RcppParallel (>= 5.1.4)
 LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix,
+        methods, rstan
 License: BSD_3_clause + file LICENSE
 Archs: x64
 
@@ -61,7 +83,8 @@ Version: 2.26.12
 Depends: R (>= 3.4.0)
 Imports: RcppParallel (>= 5.1.4)
 LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix,
+        methods, rstan
 License: BSD_3_clause + file LICENSE
 Archs: x64
 
@@ -70,6 +93,17 @@ Version: 2.26.13
 Depends: R (>= 3.4.0)
 Imports: RcppParallel (>= 5.1.4)
 LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
-Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix, methods, rstan
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix,
+        methods, rstan
+License: BSD_3_clause + file LICENSE
+Archs: x64
+
+Package: StanHeaders
+Version: 2.26.14
+Depends: R (>= 3.4.0)
+Imports: RcppParallel (>= 5.1.4)
+LinkingTo: RcppEigen, RcppParallel (>= 5.1.4)
+Suggests: Rcpp, BH (>= 1.75.0-0), knitr (>= 1.36), rmarkdown, Matrix,
+        methods, rstan
 License: BSD_3_clause + file LICENSE
 Archs: x64

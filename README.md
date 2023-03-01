@@ -14,6 +14,38 @@ To install latest `rstan` or other packages from the repo, add `https://mc-stan.
 install.packages("rstan", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
 ```
 
+## Using with `renv`
+
+To make this repository work smoothly with the [`renv`](https://rstudio.github.io/renv/) dependency management package, 
+you need to setup the repository once per project (further installs will always consider this repository).
+You have two options to do this:
+
+1) Add the repo as a **named** repository into your options via
+
+```r
+repos <- c(Stan = "https://mc-stan.org/r-packages/", CRAN = "https://cloud.r-project.org")
+options(repos = repos)
+```
+
+Now, install the packages you need and _immediately_ run `renv::snapshot()`.
+
+2) Alternatively you can just add the repository directly into the `renv.lock` file, so you'll have something like:
+
+```
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cran.rstudio.com"
+      },
+      {
+        "Name": "Stan",
+        "URL": "https://mc-stan.org/r-packages"
+      }
+    ]
+```
+
+You'll need to restart the R session after this modification.
+
 ## How to publish/update packages on this repository
 
 **For stan-dev/r-packages maintainers**

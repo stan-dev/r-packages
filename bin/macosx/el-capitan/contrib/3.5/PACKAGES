@@ -1,17 +1,23 @@
 Package: cmdstanr
 Version: 0.3.0.9000
-Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>= 0.1.3), processx (>= 3.4.5), R6 (>= 2.4.0)
-Suggests: bayesplot, knitr, loo (>= 2.0.0), rmarkdown, testthat (>= 2.1.0)
+Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>=
+        0.1.3), processx (>= 3.4.5), R6 (>= 2.4.0)
+Suggests: bayesplot, knitr, loo (>= 2.0.0), rmarkdown, testthat (>=
+        2.1.0)
 License: BSD_3_clause + file LICENSE
 MD5sum: deaca1412922b8071e898a83abcdd454
 
 Package: rstanarm
 Version: 2.19.1
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods
-Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo (>= 2.1.0), Matrix (>= 1.2-13), nlme (>= 3.1-124), rstan (>= 2.19.1),
-                rstantools (>= 2.0.0), shinystan (>= 2.3.0), splines, splines2 (>= 0.2.7), stats, survival (>= 2.40.1), utils
-LinkingTo: StanHeaders (>= 2.19.0), rstan (>= 2.19.1), BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
-Suggests: betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2, simsurv (>=
-                0.2.2), testthat (>= 1.0.2)
+Imports: bayesplot (>= 1.7.0), ggplot2 (>= 2.2.1), lme4 (>= 1.1-8), loo
+        (>= 2.1.0), Matrix (>= 1.2-13), nlme (>= 3.1-124), rstan (>=
+        2.19.1), rstantools (>= 2.0.0), shinystan (>= 2.3.0), splines,
+        splines2 (>= 0.2.7), stats, survival (>= 2.40.1), utils
+LinkingTo: StanHeaders (>= 2.19.0), rstan (>= 2.19.1), BH (>= 1.66.0),
+        Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
+Suggests: betareg, data.table (>= 1.10.0), digest, gridExtra, HSAUR3,
+        knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown, roxygen2,
+        simsurv (>= 0.2.2), testthat (>= 1.0.2)
 License: GPL (>= 3)
 MD5sum: 73784ddf8bf133e1b27592f5fe781321

@@ -1,14 +1,4 @@
 Package: cmdstanr
-Version: 0.5.2
-Depends: R (>= 3.5.0)
-Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>=
-        1.1.0), processx (>= 3.5.0), R6 (>= 2.4.0), withr (>= 2.5.0)
-Suggests: bayesplot, knitr (>= 1.37), loo (>= 2.0.0), rlang (>= 0.4.7),
-        rmarkdown, testthat (>= 2.1.0)
-License: BSD_3_clause + file LICENSE
-MD5sum: 88c19f5a0292fcd7d2ae9d66cb2441d0
-
-Package: cmdstanr
 Version: 0.5.3
 Depends: R (>= 3.5.0)
 Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>=
